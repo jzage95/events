@@ -124,7 +124,7 @@ class EventController extends Controller
     {
         $data = $request->all();
 
-        //Image Upload
+        //Image Upload - jzage95
         if ($request->hasFile('image') && $request->file('image')->isValid()) {
             $requestImage = $request->image;
 
